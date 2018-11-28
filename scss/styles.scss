@@ -92,7 +92,16 @@ body{
 		border: 2px solid rgba(255,255,255,.3);
 		padding: 10px;
 		margin: 10px 0;
-
+		&:focus{
+			// outline: none;
+			border-color: #7fcddf;
+		}
+		// &:valid:required{
+		// 	border-color: green;
+		// }
+		// &:invalid{
+		// 	border-color: red;
+		// }
 	}
 	&__checkbox{
 		border-radius: 0;
